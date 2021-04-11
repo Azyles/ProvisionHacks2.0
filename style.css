@@ -70,3 +70,10 @@
   background-color: #db492f;
   color: white;
 }
+
+.card-title{
+    margin-top: 25px;
+  font-size: calc(0.7em + 0.7vw);
+  font-weight: 700;
+  color: #473525;
+}
