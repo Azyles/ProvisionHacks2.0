@@ -12,7 +12,7 @@
   color: black;
 }
 .navbar-nav > li {
-  color: #2a2c35;
+  color: #414141;
   font-size: calc(0.43em + 0.43vw);
   padding-left: 10px;
   padding-right: 10px;
@@ -75,7 +75,7 @@
     margin-top: 25px;
   font-size: calc(0.7em + 0.7vw);
   font-weight: 700;
-  color: #473525;
+  color: #414141;
 }
 
 
@@ -182,4 +182,81 @@
 
 .team-grid .social a:hover {
   opacity: 1;
+}
+
+#lab_social_icon_footer {
+  padding: 40px 0;
+  background-color: white;
+}
+
+#lab_social_icon_footer a {
+  color: #9152c5;
+}
+
+#lab_social_icon_footer .social:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+#lab_social_icon_footer .social {
+  -webkit-transform: scale(0.8);
+  /* Browser Variations: */
+  
+  -moz-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+}
+/*
+    Multicoloured Hover Variations
+*/
+
+#lab_social_icon_footer #social-fb:hover {
+  color: #3B5998;
+}
+
+#lab_social_icon_footer #social-tw:hover {
+  color: #4099FF;
+}
+
+#lab_social_icon_footer #social-gp:hover {
+  color: #d34836;
+}
+
+#lab_social_icon_footer #social-em:hover {
+  color: #f39c12;
+}
+
+.wave {
+  background: url("assets/Ellipse 2.svg") repeat-x; 
+  width: 6400px;
+  height: 198px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite;
+  transform: translate3d(0, 0, 0);
+}
+
+.wave:nth-of-type(2) {
+  top: -175px;
+  animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+  opacity: 1;
+}
+
+@keyframes wave {
+  0% {
+    margin-left: 0;
+  }
+  100% {
+    margin-left: -1600px;
+  }
+}
+
+@keyframes swell {
+  0%, 100% {
+    transform: translate3d(0,-25px,0);
+  }
+  50% {
+    transform: translate3d(0,5px,0);
+  }
 }
