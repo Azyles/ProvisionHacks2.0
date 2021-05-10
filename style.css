@@ -264,9 +264,10 @@
 
 
 .schedulecontTitle {
-  color: rgb(54, 54, 54);
+  color: rgb(83, 83, 83);
   font-size: calc(1em + 1vw);
   padding-bottom: 20px;
+  font-weight: 700;
 }
 .schedulecontContent {
   color: grey;
