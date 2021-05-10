@@ -261,3 +261,23 @@
     transform: translate3d(0,5px,0);
   }
 }
+
+
+.schedulecontTitle {
+  color: rgb(54, 54, 54);
+  font-size: calc(1em + 1vw);
+  padding-bottom: 20px;
+}
+.schedulecontContent {
+  color: grey;
+  font-size: calc(0.6em + 0.6vw);
+}
+
+.schedulecont{
+  margin: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  background-color:  rgba(241, 241, 241, 0.548);
+  border-radius: 10px;
+}
