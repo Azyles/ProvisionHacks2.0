@@ -419,3 +419,14 @@
 .team-grids .social a:hover {
   opacity: 1;
 }
+
+.card-title{
+  padding-bottom: 10px;
+  font-size: calc(0.5em + 0.5vw);
+  color: rgb(53, 53, 53);
+}
+
+.list-group-item{
+  border-left: 0;
+  border-right: 0px;
+}
